@@ -19,28 +19,15 @@
     function ouvrirPage(){
         var a = document.getElementById("search").value;
 
-        if(a == "Bob marley", "bob marley", "bob marley: one love", "Bob marley: one love"){
-            window.open("https://moacloud.com/file/4KfGgnwavX");
-        }
-        if(a == "fast and furious 1", "FandF1"){
-            window.open("");
-        }
-        if(a == "fast and furious 2", "2 fast 2 furious", "FandF2"){
-            window.open("");
-        }
-        if(a == "fast and furious 3", "tokyo drift", "FandF3"){
-            window.open("");
-        }
-        if(a == "fast and furious 10", "fast and furious X", "FandF10"){
-            window.open("https://moacloud.com/file/yxqmS1qzkv");
-        }
-        if(a == "Madame web", "madame web"){
-            window.open("https://moacloud.com/file/Wz8klalOkr");
-        }
-        if(a == "L'abbé pierre", "l'abbé pierre" , "l'abbé pierre: une vie de combat"){
-            window.open("https://moacloud.com/file/vgyMfllz0H");
-        }
-
+        if (a === "bob marley" || a === "bob marley: one love" || a==="Bob marley" || a==="Bob marley: one love") {
+        window.open("https://moacloud.com/file/4KfGgnwavX", "_blank");
+    } else if (a === "fast and furious 10" || a === "fandf10" || a==="Fast and furious X" || a==="Fast and furious 10" || a==="FandF10" || a==="FandFX") {
+        window.open("https://moacloud.com/file/yxqmS1qzkv", "_blank");
+    } else if (a === "madame web" || a==="Madame web" || a==="madame Web") {
+        window.open("https://moacloud.com/file/Wz8klalOkr", "_blank");
+    } else if (a === "l'abbé pierre" || a === "l'abbé pierre: une vie de combat" || a==="L'abbé pierre") {
+        window.open("https://moacloud.com/file/vgyMfllz0H", "_blank");
+    }
 
     }
 </script>
